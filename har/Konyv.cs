@@ -43,7 +43,10 @@ namespace har
 			this.ar = osszeg;
 		}
 
-		
+		public void Kedvezmeny(double szazalek)
+		{
+			this.ar = Convert.ToInt32(this.ar * szazalek / 100);
+		}
 
 
 	}
