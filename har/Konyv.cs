@@ -48,6 +48,14 @@ namespace har
 			this.ar = Convert.ToInt32(this.ar * szazalek / 100);
 		}
 
+		public int HanyOldalMaradt(int elolvasott)
+		{
+			return this.oldalszam - elolvasott;
+		}
 
+		public override string ToString()
+		{
+			return $"Könyv címe: {this.cim}\nKönyv szerzője: {this.szerzo}\nKönyv kiadási éve: {this.kiadaseve}\nKönyv oldalszáma: {this.oldalszam}\nKönyv ára: {this.ar}";
+		}
 	}
 }
