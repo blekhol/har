@@ -8,6 +8,10 @@ namespace har
 {
 	internal class Konyv
 	{
-		
+		private string cim;
+		private string szerzo;
+		private int kiadaseve;
+		private int oldalszam;
+		private int ar;
 	}
 }
