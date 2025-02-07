@@ -55,6 +55,17 @@ namespace har
 			h2.Indulas();
 			h2.Tankolas(4);
 
+			//küldetés
+			KemKuldetes kuld1 = new KemKuldetes("Bombariadó", "Magyarország", 1, 100);
+			KemKuldetes kuld2 = new KemKuldetes("Banán operáció", "Mongólia");
+			Console.WriteLine(kuld1);
+			Console.WriteLine(kuld2);
+
+			Console.WriteLine();
+
+			kuld1.KuldetesInditasa();
+			kuld1.VeszelySzintNovelese(1);
+			kuld2.SikerEselyNovelese(17);
 
 			Console.ReadKey();
         }
