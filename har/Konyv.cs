@@ -13,5 +13,11 @@ namespace har
 		private int kiadaseve;
 		private int oldalszam;
 		private int ar;
+
+		public string Cim { get => cim; set => cim = value; }
+		public string Szerzo { get => szerzo; set => szerzo = value; }
+		public int Kiadaseve { get => kiadaseve; set => kiadaseve = value; }
+		public int Oldalszam { get => oldalszam; set => oldalszam = value; }
+		public int Ar { get => ar; set => ar = value; }
 	}
 }
