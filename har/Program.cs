@@ -31,8 +31,17 @@ namespace har
 			f2.MufajModositas("Akciófilm");
 			Console.WriteLine($"A második film új műfaja: {f2.Mufaj}");
 			f2.HosszNovelese(42);
-			Console.WriteLine($"A második film új műfaja: {f2.HosszPercekben}");
+			Console.WriteLine($"A második film frissített hossza: {f2.HosszPercekben}");
 
+			//karakter
+			Karakter k1 = new Karakter("asd", 50, 57, 11);
+			Karakter k2 = new Karakter("harharharharhar", 7);
+			Console.WriteLine(k1);
+			Console.WriteLine(k2);
+
+			k1.Tamadas();
+			k1.Gyogyulas(43);
+			k2.Szintlepes();
 
 			Console.ReadKey();
         }
