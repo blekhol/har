@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Urhajo.cs" />
     <Compile Include="Film.cs" />
     <Compile Include="Karakter.cs" />
     <Compile Include="Konyv.cs" />

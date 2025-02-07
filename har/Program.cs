@@ -43,6 +43,19 @@ namespace har
 			k1.Gyogyulas(43);
 			k2.Szintlepes();
 
+			//űrhajó
+			Urhajo h1 = new Urhajo("hajó1", 53, 4, 67);
+			Urhajo h2 = new Urhajo("hajó2", 8);
+			Console.WriteLine(h1);
+			Console.WriteLine(h2);
+
+			Console.WriteLine();
+
+			h1.Landolas();
+			h2.Indulas();
+			h2.Tankolas(4);
+
+
 			Console.ReadKey();
         }
 	}
